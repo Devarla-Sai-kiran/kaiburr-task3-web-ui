@@ -1,0 +1,20 @@
+.taskformpage-container {
+  background: #f9f9fb;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 2.5rem 2rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.taskformpage-title {
+  text-align: center;
+  color: #00CB79;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}

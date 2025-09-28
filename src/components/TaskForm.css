@@ -1,0 +1,52 @@
+.taskform-container {
+  background: #f9f9fb;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 2rem;
+  max-width: 420px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.taskform-label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  color: #333;
+  font-size: 1rem;
+}
+
+.taskform-input {
+  box-sizing: border-box;
+  height: 39px;
+  width: 100%;
+  border: 1px solid #E6E6E6;
+  border-radius: 20px;
+  padding: 0 1rem;
+  font-size: 1rem;
+  background: #fff;
+  color: #222;
+  outline: none;
+  margin-bottom: 0.5rem;
+}
+
+.taskform-button {
+  height: 38px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #00CB79;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.taskform-error {
+  color: #d32f2f;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.5rem;
+}

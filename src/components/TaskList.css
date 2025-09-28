@@ -1,0 +1,89 @@
+.tasklist-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 2rem;
+  max-width: 700px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.tasklist-title {
+  text-align: center;
+  color: #00CB79;
+  margin-bottom: 1.5rem;
+}
+
+.tasklist-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tasklist-item {
+  background: #f9f9fb;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.tasklist-item-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.tasklist-item-owner {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.tasklist-actions {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.tasklist-btn {
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.tasklist-btn-view {
+  background: #e0f7f1;
+  color: #00CB79;
+}
+
+.tasklist-btn-delete {
+  background: #ffeaea;
+  color: #d32f2f;
+}
+
+.tasklist-btn-run {
+  background: #00CB79;
+  color: #fff;
+}
+
+.tasklist-btn:disabled {
+  background: #e0e0e0;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.tasklist-error {
+  color: #d32f2f;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.5rem;
+}

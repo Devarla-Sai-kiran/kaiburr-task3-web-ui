@@ -1,0 +1,22 @@
+.searchbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.searchbar-input {
+  width: 60%;
+  padding: 0.7rem 1.2rem;
+  border-radius: 20px;
+  border: 1px solid #E6E6E6;
+  font-size: 1rem;
+  background: #f9f9fb;
+  color: #222;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.searchbar-input:focus {
+  border: 1.5px solid #00CB79;
+}
