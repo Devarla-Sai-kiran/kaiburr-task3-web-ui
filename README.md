@@ -43,13 +43,13 @@ This repository contains a CI/CD pipeline for automating the build and Docker im
     Below are screenshots demonstrating the CI/CD pipeline in action. Each screenshot includes the current date/time and my name as required.
 
 ### Docker Build
-![Docker build](screenshots/build_image.jpg)
+![Docker build](screenshots/build_image.png)
 
 ### Run Imgae
-![Run Image](screenshots/run_image.jpg)
+![Run Image](screenshots/run_image.png)
 
 ### Pipeline Run in GitHub Actions
-![Pipeline 1](screenshots/pipeline_run_1.jpg)
+![Pipeline 1](screenshots/pipeline_run_1.png)
 
-![Pipeline 2](screenshots/pipeline_run_2.jpg)
+![Pipeline 2](screenshots/pipeline_run_2.png)
 
