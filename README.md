@@ -14,7 +14,6 @@ This project is a React-based frontend for managing shell command tasks and thei
 
 2. **Clone the repository:**
     git clone https://github.com/Devarla-Sai-kiran/kaiburr-task3-web-ui.git
-    cd kaiburr-task2-frontend
 
 3. **Install dependencies:**
     npm install
